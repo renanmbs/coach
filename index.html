@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Database</title>
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Football Coach Database</h1>
+    </header>
+
+    <section id="container">
+
+        <article id="box">
+
+            <form id="form">
+                
+
+                <h2>Choose Your Desired Topic</h2>
+
+                <select name="entry_list" id="entry_list">
+
+                    <option value="none" selected disabled hidden >Default</option>
+
+                    <optgroup label="Positions">
+                        <option value="DEF">Defenders</option>
+                        <option value="FW">Forwards</option>
+                        <option value="Full">Full Team</option>
+                        <option value="GK">Goalkeepers</option>
+                        <option value="MID">Midfielders</option>
+                    </optgroup>
+
+                    <optgroup label="Topics">
+                        <option value="Basics">Basics</option>
+                        <option value="Defending">Defending</option>
+                        <option value="Dribbling">Dribbling</option>
+                        <option value="Passing">Passing</option>
+                        <option value="Set">Set Pieces</option> 
+                        <option value="Finishing">Finishing</option> 
+                        <option value="Technique">Technique</option>
+                    </optgroup>
+
+                    <optgroup label="Tactics">
+                        <option value="Formations">Formations</option>
+                        <option value="Pressure">Pressure</option>
+                        <option value="Knowledge">Understanding the Game</option>
+                    </optgroup>
+
+                </select>
+            </form>
+
+            <article id="buttons">
+                <button><a href="https://tactical-board.com/uk/big-football" target="_blank" title="Tactical Board"><i class="fa fa-pencil-square-o"></i></a></button>
+                <button><a href="https://www.youtube.com/channel/UC7-1hil_n8L2UIE90Irp-Ng" target="_blank" title="Youtube Channel"><i class="fa fa-youtube-play"></i></a></button>
+                <button id="mic"><i class="fa fa-microphone"></i></button>
+
+                <p id="listening">Listening to commands...</p>
+            </article>
+
+        </article>
+
+    </section>
+    
+</body>
+<script src="./js/app.js"></script>
+</html>

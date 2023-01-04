@@ -1,0 +1,90 @@
+/* #a90606	(169,6,6) verm
+#054581	(9,89,163) azul
+#720000	(114,0,0) verm esc
+#bd9c3b dpurado
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/logo.jpeg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+h1{
+    margin: 1% auto;
+    font-size: 4rem;
+    color: #bd9c3b;
+    text-shadow: 2px 2px 0 black;
+}
+
+#container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#box{
+    margin: 20% auto;
+    height: 20rem;
+    width: 40rem;
+    background-color: #720000;
+    border-radius: 15px;
+    border: solid #bd9c3b;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+h2{
+    text-shadow: 1px 2px 1px black;
+    color: #bd9c3b;
+    margin: 2% auto 4% auto;
+}
+
+select{
+    text-align: center;
+    color: black;
+}
+
+#buttons{
+    margin: 10% auto;
+}
+
+button{
+    padding: 10px 50px;
+    background-color: transparent;
+    border: solid 3px #bd9c3b;
+    filter: drop-shadow(1px 2px 2px black);
+    color: #bd9c3b;
+    font-size: 1.5rem;
+    margin: auto 1%;
+}
+
+button:active{
+    filter: drop-shadow(0px 0px 0px black);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: #bd9c3b;
+}
+
+img{
+    filter: drop-shadow(0px 0px 0px black);
+    height: 80px;
+    color: #bd9c3b;
+}
+
+#listening{
+    margin: 4% auto;
+    color: #bd9c3b;
+    display: none;
+}
