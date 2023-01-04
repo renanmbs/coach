@@ -23,49 +23,49 @@ function handle_input(){
     //Switch statement to open according page 
     switch(user_value){
         case "DEF":
-            window.open("../html/def.html"); //Defenders
+            window.open("./html/def.html"); //Defenders
             break;
         case "FW":
-            window.open("../html/fw.html"); //Forwards
+            window.open("./html/fw.html"); //Forwards
             break;
         case "Full":
-            window.open("../html/full.html"); //Full team
+            window.open("./html/full.html"); //Full team
             break;
         case "GK":
-            window.open("../html/gk.html"); //Goalies
+            window.open("./html/gk.html"); //Goalies
             break;
         case "MID":
-            window.open("../html/mid.html"); //Mids
+            window.open("./html/mid.html"); //Mids
             break;
         case "Basics":
-            window.open("../html/basics.html"); //Basics
+            window.open("./html/basics.html"); //Basics
             break;
         case "Defending":
-            window.open("../html/defending.html"); //Defending
+            window.open("./html/defending.html"); //Defending
             break;
         case "Dribbling":
-            window.open("../html/dribbling.html"); //Driblling
+            window.open("./html/dribbling.html"); //Driblling
             break;
         case "Passing":
-            window.open("../html/passing.html"); //Passing
+            window.open("./html/passing.html"); //Passing
             break;
         case "Set":
-            window.open("../html/set.html"); //Set pieces
+            window.open("./html/set.html"); //Set pieces
             break;
         case "Finishing":
-            window.open("../html/shooting.html"); //finishing
+            window.open("./html/shooting.html"); //finishing
             break;
         case "Technique":
-            window.open("../html/tech.html"); //Techinique
+            window.open("./html/tech.html"); //Techinique
             break;
         case "Formations":
-            window.open("../html/form.html"); //Formations
+            window.open("./html/form.html"); //Formations
             break;
         case "Pressure":
-            window.open("../html/pressure.html"); //Pressure
+            window.open("./html/pressure.html"); //Pressure
             break;
         case "Knowledge":
-            window.open("../html/knowledge.html"); //Knowledge
+            window.open("./html/knowledge.html"); //Knowledge
             break;
     }
 }
@@ -89,49 +89,49 @@ function handle_speech(){
         //Handle the user's voice input
         switch(result){
             case "defenders":
-                window.open("../html/def.html");  //Defenders
+                window.open("./html/def.html");  //Defenders
                 break;
             case "strikers":
-                window.open("../html/fw.html"); //Forwards
+                window.open("./html/fw.html"); //Forwards
                 break;
             case "team":
-                window.open("../html/full.html"); //Full team
+                window.open("./html/full.html"); //Full team
                 break;
             case "goalies":
-                window.open("../html/gk.html"); //Goalkeeper
+                window.open("./html/gk.html"); //Goalkeeper
                 break;
             case "mids":
-                window.open("../html/mid.html"); //Mids
+                window.open("./html/mid.html"); //Mids
                 break;
             case "basics":
-                window.open("../html/basics.html"); //Basics
+                window.open("./html/basics.html"); //Basics
                 break;
             case "defending":
-                window.open("../html/defending.html"); //Defending
+                window.open("./html/defending.html"); //Defending
                 break;
             case "skill":
-                window.open("../html/dribbling.html"); //Dribbling
+                window.open("./html/dribbling.html"); //Dribbling
                 break;
             case "passing":
-                window.open("../html/passing.html"); //Passing
+                window.open("./html/passing.html"); //Passing
                 break;
             case "pieces":
-                window.open("../html/set.html"); //Set pieces
+                window.open("./html/set.html"); //Set pieces
                 break;
             case "finishing":
-                window.open("../html/shooting.html"); //finishing
+                window.open("./html/shooting.html"); //finishing
                 break;
             case "technique":
-                window.open("../html/tech.html"); //Technique
+                window.open("./html/tech.html"); //Technique
                 break;
             case "formations":
-                window.open("../html/form.html"); //Formations
+                window.open("./html/form.html"); //Formations
                 break; 
             case "pressure":
-                window.open("../html/pressure.html"); //Pressure
+                window.open("./html/pressure.html"); //Pressure
                 break;
             case "knowledge":
-                window.open("../html/knowledge.html"); //Knowledge
+                window.open("./html/knowledge.html"); //Knowledge
                 break;
         }
     }
