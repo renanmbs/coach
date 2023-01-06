@@ -7,7 +7,7 @@ var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition; //Speech r
 var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
 let recognition = new SpeechRecognition(); //Declare speech recognition as variable
 recognition.continuous = false; //Not continous recognition
-recognition.lang = 'en-US'; //English recognition
+recognition.lang = 'pt-BR'; //English recognition
 recognition.interimResults = false; //No temporary result
 recognition.maxAlternatives = 1; //Max altenarnatives of result
 
@@ -91,13 +91,13 @@ function handle_speech(){
             case "defenders":
                 window.open("./html/def.html");  //Defenders
                 break;
-            case "strikers":
+            case "forwards":
                 window.open("./html/fw.html"); //Forwards
                 break;
             case "team":
                 window.open("./html/full.html"); //Full team
                 break;
-            case "goalies":
+            case "goalkeeper":
                 window.open("./html/gk.html"); //Goalkeeper
                 break;
             case "mids":
@@ -134,6 +134,7 @@ function handle_speech(){
                 window.open("./html/knowledge.html"); //Knowledge
                 break;
         }
+        console.log(result);
     }
 
     setTimeout(() => {
