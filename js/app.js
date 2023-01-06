@@ -7,7 +7,7 @@ var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition; //Speech r
 var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent;
 let recognition = new SpeechRecognition(); //Declare speech recognition as variable
 recognition.continuous = false; //Not continous recognition
-recognition.lang = 'pt-BR'; //English recognition
+recognition.lang = 'en-US'; //English recognition
 recognition.interimResults = false; //No temporary result
 recognition.maxAlternatives = 1; //Max altenarnatives of result
 
@@ -97,7 +97,7 @@ function handle_speech(){
             case "team":
                 window.open("./html/full.html"); //Full team
                 break;
-            case "goalkeeper":
+            case "goalkeepers":
                 window.open("./html/gk.html"); //Goalkeeper
                 break;
             case "mids":
