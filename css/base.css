@@ -71,7 +71,7 @@ h1{
     height: 100%;
 }
 
-img{
+img,video{
     height: 600px;
 }
 
@@ -85,8 +85,10 @@ h2{
     font-size: 1.7rem;
 }
 
+
+
 @media screen and (max-width:660px) {
-    img{
+    img,video{
         height: 500px;
         width: 375px;
     }
